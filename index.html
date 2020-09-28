@@ -13,7 +13,7 @@
     <form class="formClass">
         <label for="selectNumber">Enter a specific dog breed below to generate a random image of that breed</label><br>
         <div class="inputBox">
-            <input type="text" id="dogBreed" name="dogBreed" value="e.g. cocker spaniel"><br>
+            <input type="text" id="dogBreed" name="dogBreed" placeholder="e.g. cocker spaniel" onfocus="this.placeholder = ''" onblur="this.placeholder = 'e.g. cocker spaniel'"><br>
         </div>
         <input type="submit" id="selectNumber" value="Submit">
     </form>
